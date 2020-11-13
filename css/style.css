@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Corpo das páginas */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway, sans-serif;
+    color: black;
+}
+
+/* Cabeça */
+
+header { 
+    border: 1px solid;
+    border-color: rgb(150, 150, 150);
+    text-align: center;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    background: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: rgba(226, 226, 226, 0.89);
+    padding: 5px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
+/* PÁGINA DE ABOUT */
+
+.about-jane {
+    margin: 30px;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p#quote {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p#cite {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* PÁGINA MUSIC */
+
+.video-section {
+    margin: 30px;
+    padding: 10px;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.musicas li {
+    padding: 0px;
+}
+
+.direcao li {
+    display: block;
+    padding-bottom: 15px;
+}
+
+/*PÁGINA CONTATOS*/
+
+.contact-section {
+    margin: 30px;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+#frase {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#info {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.management {
+    border-bottom: 1px solid gray;
+}
+
+.booking {
+    border-bottom: 1px solid gray;
+}
+
+.label {
+    border-bottom: 1px solid gray;
+}
+
+.contact-section a {
+    color: blue;
+    text-decoration: underline;
+}
