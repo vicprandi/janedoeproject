@@ -15,6 +15,7 @@ body {
 header { 
     border: 1px solid;
     border-color: rgb(150, 150, 150);
+    border-radius: 10px 5px;
     text-align: center;
     padding-bottom: 10px;
     position: fixed;
@@ -37,6 +38,15 @@ h1 {
     padding: 10px 20px;
 }
 
+a:focus {
+    color:orangered;
+}
+
+a:hover {
+    color: orangered;
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -46,7 +56,7 @@ a {
 
 footer {
     text-align: center;
-    background-color: rgba(226, 226, 226, 0.89);
+    background-color: rgba(160, 160, 160, 0.89);
     padding: 5px;
 }
 
@@ -120,6 +130,7 @@ p#cite {
 
 .management {
     border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 .booking {
@@ -133,4 +144,95 @@ p#cite {
 .contact-section a {
     color: blue;
     text-decoration: underline;
+}
+
+main {
+    margin-top: 100px;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+div {
+    float: left;
+}
+
+div.local {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+input {
+    width: 450px;
+    height: 20px;
+}
+
+textarea {
+    width: 450px;
+    height: 50px;
+    resize: none;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#respostas {
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
+
+input.find {
+    width: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+input#submited {
+    width: 46px;
+    weight: 30px;
+    background-color: teal;
+    border: 1px solid #333;
+    color: white;
+    border-radius: 3px;
+    border-style: double;
+    margin-left: 400px;
+    padding: 1px;
+}
+
+
+/* Concept */
+
+h3#concept {
+    text-align: center;
+}
+
+p#concept2 {
+    text-align: justify;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.lista {
+    display: inline-flex;
+    align-content: center;
+    width: 100%;
+    margin: 15px 250px;
+}
+
+
+
+ol.musicas li {
+    color: orange;
+}
+
+ol.musicas {
+    margin-right: 0px;  
+}
+
+div#listinha {
+    width: 450px;
 }
